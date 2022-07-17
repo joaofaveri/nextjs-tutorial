@@ -1,6 +1,7 @@
-import { waitUntilSymbol } from "next/dist/server/web/spec-extension/fetch-event";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
+import utilStyles from "../styles/utils.module.css";
 import styles from "./layout.module.css";
 
 const name = "João Paulo de Faveri";
